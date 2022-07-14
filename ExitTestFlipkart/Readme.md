@@ -33,6 +33,7 @@
  available drivers - chrome, firefox, microsoftedge, internet explorer
 - To change mode - change the driver mode in config.properties
 mode -  headless, non-headless
+- 1 test case will be skipped because in excel sheet execution required is set as no.
 
 ## Important Directory
 
@@ -42,3 +43,41 @@ mode -  headless, non-headless
 - Configuration File: ./Resources/config.properties
 - Screenshots Folder: ./FailedTestsScreenshots/
 - Test Data File : ./TestDataSheet/TestData.xlsx
+
+## How to run
+
+- Clone repo from the github link
+- gitHub link :- **https://github.com/srishtijain644/FlipkartTestCases.git**
+
+## How to run through jenkins
+
+- download jenkins.war file
+- run in cmd 
+
+```
+java -jar jenkins.war --httpPort=8080
+```
+
+- setup jenkins
+
+### Screenshots
+
+#### Jenkins Setup 
+
+![Jenkins Setup](./jenkinsPictures/setup.png)
+
+
+#### Jenkins Final
+
+![Jenkins Final](./jenkinsPictures/build.png)
+
+#### Jenkins TestResult
+
+![Jenkins Final](./jenkinsPictures/testResult.png)
+
+#### Reports and Screenshots
+* Extent report gets generated after the run under ./Reports/ExtentReports.html.
+* TestNG report as "emailable-report.html" gets generated under /test-output.
+* Failed Screenshots gets placed under /FailedScreenshots
+
+
