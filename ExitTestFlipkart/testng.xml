@@ -5,6 +5,12 @@
     <classes>
       
       <class name="com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation"/>
+      <class name="com.ExitTestFlipkart.tests.HomePageTests"/>
+      <class name="com.ExitTestFlipkart.tests.loginTest"/>
+      <class name="com.ExitTestFlipkart.tests.MoreOptionTest"/>
+      <class name="com.ExitTestFlipkart.tests.ProductPageTests"/>
+      <class name="com.ExitTestFlipkart.tests.travelTests"/>
+      
       
     </classes>
   </test> <!-- Test -->

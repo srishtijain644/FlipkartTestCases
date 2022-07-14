@@ -30,7 +30,7 @@
 ## Important Note
 
 - To change browser - change the browser in config.properties
- available drivers - chrome, firefox, microsoftedge 
+ available drivers - chrome, firefox, microsoftedge, internet explorer
 - To change mode - change the driver mode in config.properties
 mode -  headless, non-headless
 

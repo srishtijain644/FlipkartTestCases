@@ -32,6 +32,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseTest {
 	public static WebDriver driver;
 	 
@@ -97,7 +99,8 @@ public class BaseTest {
 		// Code for Chrome Driver with or without Headless Mode
 
 		if (DriverName.toLowerCase().equals("chrome")) {
-			System.setProperty(prop.getProperty("chromeDriverProperty"), prop.getProperty("chromeDriverPath"));
+//			System.setProperty(prop.getProperty("chromeDriverProperty"), prop.getProperty("chromeDriverPath"));
+			WebDriverManager.chromedriver().setup();
 			if (DriverMode.toLowerCase().equals("headless")) {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size= 1920, 1080");
@@ -109,7 +112,8 @@ public class BaseTest {
 		}
 		// Code for FireFox Driver with or without Headless Mode
 		if (DriverName.toLowerCase().equals("firefox")) {
-			System.setProperty(prop.getProperty("firefoxDriverProperty"), prop.getProperty("firefoxDriverPath"));
+//			System.setProperty(prop.getProperty("firefoxDriverProperty"), prop.getProperty("firefoxDriverPath"));
+			WebDriverManager.firefoxdriver().setup();
 			if (DriverMode.toLowerCase().equals("headless")) {
 				FirefoxOptions options = new FirefoxOptions();
 				options.setHeadless(true);
@@ -121,19 +125,21 @@ public class BaseTest {
 		}
 		// code for InternetExplorer driver without headless mode
 		if (DriverName.toLowerCase().equals("internet explorer")) {
-			System.setProperty(prop.getProperty("InternetExplorerDriverProperty"),
-					prop.getProperty("InternetExplorerDriverPath"));
+//			System.setProperty(prop.getProperty("InternetExplorerDriverProperty"),
+//					prop.getProperty("InternetExplorerDriverPath"));
+			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
 		}
 
 		// code for microsoft edge driver with or without headless mode
 		if (DriverName.toLowerCase().equals("microsoftedge")) {
-			System.setProperty(prop.getProperty("microsoftEdgeDriverProperty"),
-					prop.getProperty("microsoftEdgeDriverPath"));
+//			System.setProperty(prop.getProperty("microsoftEdgeDriverProperty"),
+//					prop.getProperty("microsoftEdgeDriverPath"));
+			WebDriverManager.edgedriver().setup();
 			if (DriverMode.toLowerCase().equals("headless")) {
 				EdgeOptions options = new EdgeOptions();
-				options.addArguments("window-size= 1920, 1080");
-				options.addArguments("--headless");
+//				options.addArguments("window-size= 1920, 1080");
+//				options.addArguments("--headless");
 				driver = new EdgeDriver(options);
 			} else {
 			
