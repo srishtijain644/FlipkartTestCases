@@ -25,15 +25,16 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.log4testng.Logger;
 
 import com.ExitTestFlipkart.pages.ProductPage;
+import com.ExitTestFlipkart.utils.Screenshots;
 import com.ExitTestFlipkart.utils.excelReadingFile;
-import com.ReusableMethod.utilities.Screenshots;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class BaseTest {
 	public static WebDriver driver;
-	Screenshots Screenshots = new Screenshots(); 
+	 
 	static {
 		String log4jConfigFile = System.getProperty("user.dir") + File.separator + "./Resources/log4j.properties";
 		PropertyConfigurator.configure(log4jConfigFile);
