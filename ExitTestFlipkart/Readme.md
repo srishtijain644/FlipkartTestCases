@@ -5,6 +5,10 @@
 * open cmd for that path
 * run command mvn test or mvn clean install
 
+ -----------------**OR**--------------
+                 
+  Double click on batchfile.bat
+
 #### Testng files description
 * testng.xml: define the tests related to different pages across the site
 
