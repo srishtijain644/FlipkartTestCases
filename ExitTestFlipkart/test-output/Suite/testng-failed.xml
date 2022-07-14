@@ -3,18 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation">
+      <class name="com.ExitTestFlipkart.tests.ProductPageTests">
         <methods>
           <include name="startTest"/>
           <include name="initializeDriver"/>
           <include name="openUrl"/>
           <include name="ResultTest"/>
           <include name="endReport"/>
+          <include name="addToCart"/>
           <include name="setExtent"/>
-          <include name="logout"/>
           <include name="testClose"/>
         </methods>
-      </class> <!-- com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation -->
+      </class> <!-- com.ExitTestFlipkart.tests.ProductPageTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

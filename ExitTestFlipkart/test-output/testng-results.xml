@@ -1,173 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-14T05:34:25Z" name="Suite" finished-at="2022-07-14T05:35:10Z" duration-ms="45256">
+  <suite started-at="2022-07-14T06:15:26Z" name="Default suite" finished-at="2022-07-14T06:15:34Z" duration-ms="8471">
     <groups>
     </groups>
-    <test started-at="2022-07-14T05:34:25Z" name="Test" finished-at="2022-07-14T05:35:10Z" duration-ms="45256">
-      <class name="com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:24Z" name="setExtent" finished-at="2022-07-14T05:34:25Z" duration-ms="96" status="PASS">
+    <test started-at="2022-07-14T06:15:26Z" name="Default test" finished-at="2022-07-14T06:15:34Z" duration-ms="8471">
+      <class name="com.ExitTestFlipkart.tests.ProductPageTests">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:26Z" name="setExtent" finished-at="2022-07-14T06:15:26Z" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:25Z" name="initializeDriver" finished-at="2022-07-14T05:34:27Z" duration-ms="2953" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:26Z" name="initializeDriver" finished-at="2022-07-14T06:15:28Z" duration-ms="2094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:27Z" name="openUrl" finished-at="2022-07-14T05:34:30Z" duration-ms="2901" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:28Z" name="openUrl" finished-at="2022-07-14T06:15:30Z" duration-ms="1993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:30Z" name="startTest" finished-at="2022-07-14T05:34:30Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:30Z" name="startTest" finished-at="2022-07-14T06:15:30Z" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.logout() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.ExitTestFlipkart.tests.ProductPageTests.addToCart()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="logout()[pri:1, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:30Z" name="logout" finished-at="2022-07-14T05:34:39Z" duration-ms="9032" status="PASS">
+        <test-method signature="addToCart()[pri:18, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:30Z" name="addToCart" finished-at="2022-07-14T06:15:33Z" duration-ms="3604" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:39Z" name="ResultTest" finished-at="2022-07-14T05:34:39Z" duration-ms="5" status="PASS">
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:33Z" name="ResultTest" finished-at="2022-07-14T06:15:33Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logout status=SUCCESS method=FirstLoginThenOtherOperation.logout()[pri:1, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e] output={null}]]]>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=ProductPageTests.addToCart()[pri:18, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResultTest -->
-        <test-method is-config="true" signature="testClose()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:39Z" name="testClose" finished-at="2022-07-14T05:34:40Z" duration-ms="887" status="PASS">
+        <test-method is-config="true" signature="testClose()[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:33Z" name="testClose" finished-at="2022-07-14T06:15:34Z" duration-ms="759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClose -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:40Z" name="initializeDriver" finished-at="2022-07-14T05:34:42Z" duration-ms="1475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:42Z" name="openUrl" finished-at="2022-07-14T05:34:45Z" duration-ms="2830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="visitMyProfile()[pri:2, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:45Z" name="visitMyProfile" finished-at="2022-07-14T05:34:49Z" duration-ms="4447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- visitMyProfile -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:45Z" name="startTest" finished-at="2022-07-14T05:34:45Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.visitMyProfile() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:49Z" name="ResultTest" finished-at="2022-07-14T05:34:49Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=visitMyProfile status=SUCCESS method=FirstLoginThenOtherOperation.visitMyProfile()[pri:2, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ResultTest -->
-        <test-method is-config="true" signature="testClose()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:49Z" name="testClose" finished-at="2022-07-14T05:34:50Z" duration-ms="807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClose -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:50Z" name="initializeDriver" finished-at="2022-07-14T05:34:51Z" duration-ms="1501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:51Z" name="openUrl" finished-at="2022-07-14T05:34:55Z" duration-ms="3146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:55Z" name="startTest" finished-at="2022-07-14T05:34:55Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.superCoinZone() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="superCoinZone()[pri:3, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:55Z" name="superCoinZone" finished-at="2022-07-14T05:34:59Z" duration-ms="4931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- superCoinZone -->
-        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:59Z" name="ResultTest" finished-at="2022-07-14T05:34:59Z" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=superCoinZone status=SUCCESS method=FirstLoginThenOtherOperation.superCoinZone()[pri:3, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ResultTest -->
-        <test-method is-config="true" signature="testClose()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:34:59Z" name="testClose" finished-at="2022-07-14T05:35:00Z" duration-ms="822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClose -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:00Z" name="initializeDriver" finished-at="2022-07-14T05:35:02Z" duration-ms="1421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:02Z" name="openUrl" finished-at="2022-07-14T05:35:05Z" duration-ms="2996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:05Z" name="startTest" finished-at="2022-07-14T05:35:05Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.clickMyProfileThenMyCupons() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="clickMyProfileThenMyCupons()[pri:4, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:05Z" name="clickMyProfileThenMyCupons" finished-at="2022-07-14T05:35:09Z" duration-ms="4230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickMyProfileThenMyCupons -->
-        <test-method is-config="true" signature="ResultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:09Z" name="ResultTest" finished-at="2022-07-14T05:35:09Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickMyProfileThenMyCupons status=SUCCESS method=FirstLoginThenOtherOperation.clickMyProfileThenMyCupons()[pri:4, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ResultTest -->
-        <test-method is-config="true" signature="testClose()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:09Z" name="testClose" finished-at="2022-07-14T05:35:10Z" duration-ms="823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClose -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e]" started-at="2022-07-14T05:35:10Z" name="endReport" finished-at="2022-07-14T05:35:10Z" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ExitTestFlipkart.tests.ProductPageTests@37cd92d6]" started-at="2022-07-14T06:15:34Z" name="endReport" finished-at="2022-07-14T06:15:34Z" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.ExitTestFlipkart.tests.ProductPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

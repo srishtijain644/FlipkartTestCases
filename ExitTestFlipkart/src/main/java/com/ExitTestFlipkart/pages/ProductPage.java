@@ -37,7 +37,7 @@ public class ProductPage {
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'BS AMOR Glass Vase, Urli Bowl Terrarium Succulent ')]")
 	private WebElement clickItem;
 
-	@FindBy(how = How.XPATH, using = "//button[normalize-space()='ADD TO CART']")
+	@FindBy(how = How.CSS, using = "._2KpZ6l._2U9uOA._3v1-ww")
 	private WebElement AddItemToCart;
 
 	public void cancelButton() {

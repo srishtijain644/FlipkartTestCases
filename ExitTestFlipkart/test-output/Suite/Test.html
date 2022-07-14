@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 14 11:04:25 IST 2022</td>
+<td>Started on:</td><td>Thu Jul 14 11:36:27 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45256 ms)</td>
+<tr><td>Total time:</td><td>194 seconds (194718 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,99 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.ProductPageTests.addToCart()'><b>addToCart</b><br>Test class: com.ExitTestFlipkart.tests.ProductPageTests</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;ADD TO CART&apos;]&quot;}
+  (Session info: MicrosoftEdge=103.0.1264.49)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;IN-HGSM2J3&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2bf325f03fee67a907bba3377ef54e9a, findElement {using=xpath, value=//button[normalize-space()=&apos;ADD TO CART&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55965}, msedge: {msedgedriverVersion: 103.0.1264.49 (abaa9303c229..., userDataDir: C:\Users\SRISHT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55965/devtoo..., se:cdpVersion: 103.0.1264.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf325f03fee67a907bba3377ef54e9a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.ExitTestFlipkart.pages.ProductPage.AddToCart(ProductPage.java:70)
+	at com.ExitTestFlipkart.tests.ProductPageTests.addToCart(ProductPageTests.java:103)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace412496882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace412496882'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[normalize-space()=&apos;ADD TO CART&apos;]&quot;}
+  (Session info: MicrosoftEdge=103.0.1264.49)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;IN-HGSM2J3&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2bf325f03fee67a907bba3377ef54e9a, findElement {using=xpath, value=//button[normalize-space()=&apos;ADD TO CART&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.49, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55965}, msedge: {msedgedriverVersion: 103.0.1264.49 (abaa9303c229..., userDataDir: C:\Users\SRISHT~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55965/devtoo..., se:cdpVersion: 103.0.1264.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf325f03fee67a907bba3377ef54e9a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.ExitTestFlipkart.pages.ProductPage.AddToCart(ProductPage.java:70)
+	at com.ExitTestFlipkart.tests.ProductPageTests.addToCart(ProductPageTests.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.ExitTestFlipkart.tests.ProductPageTests@655a5d9c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,25 +168,100 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.ExitTestFlipkart.tests.ProductPageTests.Applyfilter()'><b>Applyfilter</b><br>Test class: com.ExitTestFlipkart.tests.ProductPageTests</td>
+<td></td>
+<td>5</td>
+<td>com.ExitTestFlipkart.tests.ProductPageTests@655a5d9c</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.BecomeASeller()'><b>BecomeASeller</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>7</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.Facebook()'><b>Facebook</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.FlipkartPlusZone()'><b>FlipkartPlusZone</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.FlipkartStories()'><b>FlipkartStories</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>25</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.Mobiles()'><b>Mobiles</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.MoreOptionTest.NotificationPreference()'><b>NotificationPreference</b><br>Test class: com.ExitTestFlipkart.tests.MoreOptionTest</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.MoreOptionTest@1b5bc39d</td></tr>
+<tr>
 <td title='com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.clickMyProfileThenMyCupons()'><b>clickMyProfileThenMyCupons</b><br>Test class: com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation</td>
 <td></td>
 <td>4</td>
-<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e</td></tr>
+<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@27eb3298</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.MoreOptionTest.customerService()'><b>customerService</b><br>Test class: com.ExitTestFlipkart.tests.MoreOptionTest</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.MoreOptionTest@1b5bc39d</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.travelTests.enterInValidFromOrToValue()'><b>enterInValidFromOrToValue</b><br>Test class: com.ExitTestFlipkart.tests.travelTests</td>
+<td></td>
+<td>5</td>
+<td>com.ExitTestFlipkart.tests.travelTests@1494b84d</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.travelTests.enterValidFromAndToValue()'><b>enterValidFromAndToValue</b><br>Test class: com.ExitTestFlipkart.tests.travelTests</td>
+<td></td>
+<td>5</td>
+<td>com.ExitTestFlipkart.tests.travelTests@1494b84d</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.hoverToElectronicsAndClickGaming()'><b>hoverToElectronicsAndClickGaming</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>2</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.loginTest.loginWithInvalidNumberOrPassword()'><b>loginWithInvalidNumberOrPassword</b><br>Test class: com.ExitTestFlipkart.tests.loginTest</td>
+<td></td>
+<td>2</td>
+<td>com.ExitTestFlipkart.tests.loginTest@bc57b40</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.loginTest.loginWithValidNameAndPassword()'><b>loginWithValidNameAndPassword</b><br>Test class: com.ExitTestFlipkart.tests.loginTest</td>
+<td></td>
+<td>3</td>
+<td>com.ExitTestFlipkart.tests.loginTest@bc57b40</td></tr>
 <tr>
 <td title='com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.logout()'><b>logout</b><br>Test class: com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation</td>
 <td></td>
-<td>9</td>
-<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e</td></tr>
+<td>8</td>
+<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@27eb3298</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.ProductPageTests.search()'><b>search</b><br>Test class: com.ExitTestFlipkart.tests.ProductPageTests</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.ProductPageTests@655a5d9c</td></tr>
 <tr>
 <td title='com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.superCoinZone()'><b>superCoinZone</b><br>Test class: com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation</td>
 <td></td>
-<td>4</td>
-<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e</td></tr>
+<td>5</td>
+<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@27eb3298</td></tr>
+<tr>
+<td title='com.ExitTestFlipkart.tests.HomePageTests.topOffers()'><b>topOffers</b><br>Test class: com.ExitTestFlipkart.tests.HomePageTests</td>
+<td></td>
+<td>1</td>
+<td>com.ExitTestFlipkart.tests.HomePageTests@200a26bc</td></tr>
 <tr>
 <td title='com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation.visitMyProfile()'><b>visitMyProfile</b><br>Test class: com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation</td>
 <td></td>
 <td>4</td>
-<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@733c423e</td></tr>
+<td>com.ExitTestFlipkart.tests.FirstLoginThenOtherOperation@27eb3298</td></tr>
 </table><p>
 </body>
 </html>
