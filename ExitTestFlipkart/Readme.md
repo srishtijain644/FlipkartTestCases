@@ -1,5 +1,10 @@
 # Flipkart Website Automation Suite Information:
 
+##### To run the test cases from command line -
+* open the project location where pom file is placed
+* open cmd for that path
+* run command mvn test or mvn clean install
+
 #### Testng files description
 * testng.xml: define the tests related to different pages across the site
 
